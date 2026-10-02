@@ -1,0 +1,7 @@
+Feature set,Model,Accuracy,ROC-AUC,PR-AUC,F1,MCC
+Full feature set (with PageValues/BounceRates/ExitRates),Logistic Regression,0.8366,0.8918,0.6208,0.5832,0.5042
+Full feature set (with PageValues/BounceRates/ExitRates),Random Forest,0.8861,0.9241,0.7221,0.6602,0.5947
+Early-prediction (excluding PageValues/BounceRates/ExitRates),Logistic Regression,0.6565,0.7164,0.3088,0.3749,0.2368
+Early-prediction (excluding PageValues/BounceRates/ExitRates),Random Forest,0.7976,0.7578,0.3515,0.3817,0.2616
+Full feature set (with PageValues/BounceRates/ExitRates),XGBoost,0.882,0.9225,0.7164,0.654,0.5871
+Early-prediction (excluding PageValues/BounceRates/ExitRates),XGBoost,0.7575,0.7325,0.3195,0.3692,0.2327

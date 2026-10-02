@@ -1,0 +1,5 @@
+feature,feature_type,PDI_RF_vs_XGBoost
+ProductRelated_Duration,continuous,0.1053
+ProductRelated,continuous,0.2
+Administrative_Duration,continuous,0.1818
+Month_Nov,discrete,0.0

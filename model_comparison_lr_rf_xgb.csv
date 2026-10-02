@@ -1,0 +1,4 @@
+Model,Accuracy,AUC,Interpretable by design?
+Logistic Regression,0.8366,0.8918,Yes (coefficients)
+Random Forest,0.8861,0.9241,No (ensemble of 300 trees)
+XGBoost,0.882,0.9225,No (gradient-boosted ensemble)
