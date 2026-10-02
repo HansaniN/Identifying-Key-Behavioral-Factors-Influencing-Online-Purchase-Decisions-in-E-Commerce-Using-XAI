@@ -1,0 +1,5 @@
+Feature set,Model,ROC_AUC,PR_AUC
+full,Logistic Regression,0.8323,0.6172
+full,Random Forest,0.8422,0.6611
+leakage-free,Logistic Regression,0.6619,0.3231
+leakage-free,Random Forest,0.6481,0.2903

@@ -1,0 +1,2 @@
+Split,N_test,Accuracy,ROC_AUC,PR_AUC,F1,MCC,Precision,Recall,Brier,ECE,Selected_max_depth,Selected_max_features,Selected_min_samples_leaf,Selected_n_estimators
+"Chronological (train=['Feb', 'Mar', 'May', 'June', 'Jul', 'Aug', 'Sep'], test=['Oct', 'Nov', 'Dec'])",5274,0.6809,0.6481,0.2903,0.32,0.1167,0.2861,0.363,0.1959,0.1789,,sqrt,5,500

@@ -1,0 +1,2 @@
+Split,N_test,Accuracy,ROC_AUC,PR_AUC,F1,MCC,Precision,Recall,Brier,Selected_C
+"Chronological (train=['Feb', 'Mar', 'May', 'June', 'Jul', 'Aug', 'Sep'], test=['Oct', 'Nov', 'Dec'])",5274,0.8168,0.8323,0.6172,0.613,0.5023,0.5445,0.7012,0.1709,1
