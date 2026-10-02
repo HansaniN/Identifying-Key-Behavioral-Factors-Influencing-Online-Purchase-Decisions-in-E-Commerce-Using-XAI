@@ -1,0 +1,4 @@
+Background_variant,Top10_features,Month_Nov_mean_abs_SHAP,Month_Nov_rank
+path_dependent (as in original notebooks),"PageValues, ExitRates, Month_Nov, BounceRates, ProductRelated_Duration, ProductRelated, Month_May, Administrative, Administrative_Duration, VisitorType_Returning_Visitor",0.03843760355968442,3.0
+interventional_100_sample,"PageValues, Month_Nov, ExitRates, BounceRates, Month_May, ProductRelated_Duration, ProductRelated, Administrative, TrafficType_2, VisitorType_Returning_Visitor",0.03455766786233093,2.0
+interventional_full_train,"PageValues, Month_Nov, ExitRates, BounceRates, Month_May, ProductRelated_Duration, VisitorType_Returning_Visitor, Administrative, ProductRelated, Administrative_Duration",0.0267723403061131,2.0

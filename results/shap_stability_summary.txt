@@ -1,0 +1,10 @@
+SHAP stability analysis summary
+========================================
+Bootstrap resamples: 30 | Fixed evaluation sample size: 500
+Mean Spearman rank correlation (bootstrap vs. reference ranking): 0.985 (std 0.004)
+
+Month_Nov across bootstraps: mean rank 2.8 (std 0.6), mean|SHAP| 0.0355 (std 0.0029)
+
+Correlated feature clusters were detected among the page-count / duration / rate variables (see feature_correlation_clusters.csv). Where an individual feature's rank varies substantially across bootstraps (high Bootstrap_CV in shap_bootstrap_rank_stability.csv) but its cluster's combined attribution (shap_cluster_stability.csv) stays comparatively stable, this indicates SHAP mass is being redistributed among correlated proxies rather than reflecting genuine uncertainty about the underlying behavioural construct — a point the manuscript should make explicit rather than reporting single-feature ranks as though they were independent.
+
+Background-data sensitivity results (shap_background_sensitivity.csv) show whether the top-10 ranking and the Month_Nov attribution are an artifact of the path-dependent TreeExplainer default used in the original notebooks, or whether they replicate under interventional SHAP with different background references.

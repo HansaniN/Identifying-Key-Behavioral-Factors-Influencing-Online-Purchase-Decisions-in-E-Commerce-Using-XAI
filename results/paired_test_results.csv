@@ -1,0 +1,25 @@
+Comparison,Metric,Mean_diff(Random Forest (tuned)_minus_Logistic Regression (tuned)),Std_diff,Wilcoxon_stat,Wilcoxon_p,Paired_ttest_stat,Paired_ttest_p,Significant_at_0.05_Wilcoxon,Mean_diff(Logistic Regression (tuned)_minus_Logistic Regression (baseline)),Mean_diff(Random Forest (tuned)_minus_Random Forest (baseline))
+RF(tuned) vs LR(tuned),ROC_AUC,0.0289,0.0072,0.0,0.0,28.6013,0.0,True,,
+RF(tuned) vs LR(tuned),PR_AUC,0.0978,0.029,0.0,0.0,23.8382,0.0,True,,
+RF(tuned) vs LR(tuned),F1_default,0.0696,0.0181,0.0,0.0,27.212,0.0,True,,
+RF(tuned) vs LR(tuned),MCC_default,0.0815,0.0217,0.0,0.0,26.5856,0.0,True,,
+RF(tuned) vs LR(tuned),F1_tuned,0.0452,0.0174,0.0,0.0,18.4062,0.0,True,,
+RF(tuned) vs LR(tuned),MCC_tuned,0.0538,0.0196,0.0,0.0,19.3554,0.0,True,,
+RF(tuned) vs LR(tuned),Brier,-0.0475,0.0038,0.0,0.0,-88.0459,0.0,True,,
+RF(tuned) vs LR(tuned),ECE,-0.1286,0.0046,0.0,0.0,-195.9399,0.0,True,,
+LR: tuned vs baseline,ROC_AUC,,0.0,77.5,0.0,6.1848,0.0,True,0.0,
+LR: tuned vs baseline,PR_AUC,,0.0002,60.0,0.0,5.8531,0.0,True,0.0001,
+LR: tuned vs baseline,F1_default,,0.0007,7.0,0.036658,1.4715,0.14754,True,0.0001,
+LR: tuned vs baseline,MCC_default,,0.0008,7.0,0.036658,1.4878,0.143211,True,0.0002,
+LR: tuned vs baseline,F1_tuned,,0.0086,50.0,0.209675,1.1172,0.269365,False,0.0014,
+LR: tuned vs baseline,MCC_tuned,,0.0087,49.0,0.192985,1.3403,0.186332,False,0.0016,
+LR: tuned vs baseline,Brier,,0.0,2.0,0.0,-21.5655,0.0,True,-0.0001,
+LR: tuned vs baseline,ECE,,0.0,0.0,0.0,-54.3189,0.0,True,-0.0002,
+RF: tuned vs baseline,ROC_AUC,,0.0005,332.0,0.003187,3.0966,0.003235,True,,0.0002
+RF: tuned vs baseline,PR_AUC,,0.0022,453.0,0.075562,2.0443,0.046321,False,,0.0006
+RF: tuned vs baseline,F1_default,,0.0054,534.0,0.943386,0.1934,0.847422,False,,0.0001
+RF: tuned vs baseline,MCC_default,,0.0064,540.0,0.995641,0.2087,0.835572,False,,0.0002
+RF: tuned vs baseline,F1_tuned,,0.0068,476.0,0.351735,0.896,0.37463,False,,0.0009
+RF: tuned vs baseline,MCC_tuned,,0.0076,470.0,0.319871,1.1059,0.274152,False,,0.0012
+RF: tuned vs baseline,Brier,,0.0002,396.0,0.019067,-2.456,0.017643,True,,-0.0001
+RF: tuned vs baseline,ECE,,0.0012,436.0,0.051786,1.3665,0.178022,False,,0.0002

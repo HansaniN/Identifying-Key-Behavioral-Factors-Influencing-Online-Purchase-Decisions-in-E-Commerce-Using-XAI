@@ -1,0 +1,6 @@
+Cluster,Features,N_Features,Reference_Cluster_SHAP,Bootstrap_Cluster_SHAP_Mean,Max_Feature_Rank_Range
+21,"['ProductRelated_Duration', 'ProductRelated']",2,0.04010835985092452,0.04278393897908478,1.0
+20,"['Administrative', 'Administrative_Duration']",2,0.029732435072068422,0.02968310319428659,1.0
+19,"['Informational', 'Informational_Duration']",2,0.01127419885792365,0.01226409491217292,2.0
+13,"['OperatingSystems_8', 'Browser_13']",2,0.0002479674485972708,0.0002769195722175986,3.0
+1,"['OperatingSystems_5', 'Browser_11']",2,0.0,1.9215810544826822e-05,0.0
